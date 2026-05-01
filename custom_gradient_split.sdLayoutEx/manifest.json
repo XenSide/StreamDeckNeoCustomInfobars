@@ -1,0 +1,289 @@
+{
+    "themes": [
+        {
+            "id": "dream",
+            "primaryColor": "#67A4FF",
+            "secondaryColor": "#B367FF",
+            "colors": {
+                "textColor": "#FFFFFF",
+                "outlineColor": "#000000"
+            },
+            "fonts": {
+                "timeFont": {
+                    "family": "Montserrat",
+                    "size": 26,
+                    "weight": 700,
+                    "italic": false
+                },
+                "amFont": {
+                    "family": "Montserrat",
+                    "size": 13,
+                    "weight": 700,
+                    "italic": false
+                },
+                "dateFont": {
+                    "family": "Montserrat",
+                    "size": 14,
+                    "weight": 500,
+                    "italic": false
+                }
+            },
+            "images": {
+                "backgroundImage": "images/dream_background.png"
+            }
+        },
+        {
+            "id": "mystic",
+            "primaryColor": "#3B4C66",
+            "secondaryColor": "#4E3D66",
+            "colors": {
+                "textColor": "#FFFFFF",
+                "outlineColor": "#000000"
+            },
+            "fonts": {
+                "timeFont": {
+                    "family": "Montserrat",
+                    "size": 26,
+                    "weight": 700,
+                    "italic": false
+                },
+                "amFont": {
+                    "family": "Montserrat",
+                    "size": 13,
+                    "weight": 700,
+                    "italic": false
+                },
+                "dateFont": {
+                    "family": "Montserrat",
+                    "size": 14,
+                    "weight": 500,
+                    "italic": false
+                }
+            },
+            "images": {
+                "backgroundImage": "images/mystic_background.png"
+            }
+        },
+        {
+            "id": "ocean",
+            "primaryColor": "#00C6FF",
+            "secondaryColor": "#0072FF",
+            "colors": {
+                "textColor": "#FFFFFF",
+                "outlineColor": "#000000"
+            },
+            "fonts": {
+                "timeFont": {
+                    "family": "Montserrat",
+                    "size": 26,
+                    "weight": 700,
+                    "italic": false
+                },
+                "amFont": {
+                    "family": "Montserrat",
+                    "size": 13,
+                    "weight": 700,
+                    "italic": false
+                },
+                "dateFont": {
+                    "family": "Montserrat",
+                    "size": 14,
+                    "weight": 500,
+                    "italic": false
+                }
+            },
+            "images": {
+                "backgroundImage": "images/ocean_background.png"
+            }
+        },
+        {
+            "id": "forest",
+            "primaryColor": "#11998E",
+            "secondaryColor": "#38EF7D",
+            "colors": {
+                "textColor": "#FFFFFF",
+                "outlineColor": "#000000"
+            },
+            "fonts": {
+                "timeFont": {
+                    "family": "Montserrat",
+                    "size": 26,
+                    "weight": 700,
+                    "italic": false
+                },
+                "amFont": {
+                    "family": "Montserrat",
+                    "size": 13,
+                    "weight": 700,
+                    "italic": false
+                },
+                "dateFont": {
+                    "family": "Montserrat",
+                    "size": 14,
+                    "weight": 500,
+                    "italic": false
+                }
+            },
+            "images": {
+                "backgroundImage": "images/forest_background.png"
+            }
+        }
+    ],
+    "elements": [
+        {
+            "key": "hour1",
+            "type": "hours"
+        },
+        {
+            "key": "colon1",
+            "type": "colon",
+            "animated": false
+        },
+        {
+            "key": "min1",
+            "type": "minutes",
+            "show_zero": true
+        },
+        {
+            "key": "am_pm",
+            "type": "am/pm",
+            "capitalize": true
+        },
+        {
+            "key": "day1",
+            "type": "day",
+            "dateType": "Text",
+            "dateFormat": "Long"
+        },
+        {
+            "key": "date1",
+            "type": "custom_date",
+            "dateFormat": "Month_Day"
+        }
+    ],
+    "template": {
+        "id": "custom_gradient_split",
+        "items": [
+            {
+                "key": "background",
+                "type": "pixmap",
+                "rect": [
+                    0,
+                    0,
+                    232,
+                    50
+                ],
+                "value": "{{backgroundImage}}",
+                "zOrder": 0
+            },
+            {
+                "key": "hour1",
+                "type": "text",
+                "rect": [
+                    36,
+                    10,
+                    35,
+                    30
+                ],
+                "value": "0",
+                "font": "{{timeFont}}",
+                "color": "{{textColor}}",
+                "alignment": "right",
+                "text-overflow": "clip",
+                "outline_w": 3,
+                "outline_c": "{{outlineColor}}",
+                "zOrder": 1
+            },
+            {
+                "key": "colon1",
+                "type": "text",
+                "rect": [
+                    71,
+                    10,
+                    8,
+                    30
+                ],
+                "value": ":",
+                "font": "{{timeFont}}",
+                "color": "{{textColor}}",
+                "alignment": "center",
+                "text-overflow": "clip",
+                "outline_w": 3,
+                "outline_c": "{{outlineColor}}",
+                "zOrder": 2
+            },
+            {
+                "key": "min1",
+                "type": "text",
+                "rect": [
+                    79,
+                    10,
+                    35,
+                    30
+                ],
+                "value": "0",
+                "font": "{{timeFont}}",
+                "color": "{{textColor}}",
+                "alignment": "left",
+                "text-overflow": "clip",
+                "outline_w": 3,
+                "outline_c": "{{outlineColor}}",
+                "zOrder": 3
+            },
+            {
+                "key": "separator",
+                "type": "text",
+                "rect": [
+                    118,
+                    8,
+                    2,
+                    32
+                ],
+                "value": "|",
+                "font": "{{timeFont}}",
+                "color": "{{textColor}}",
+                "alignment": "center",
+                "text-overflow": "clip",
+                "outline_w": 3,
+                "outline_c": "{{outlineColor}}",
+                "zOrder": 4
+            },
+            {
+                "key": "day1",
+                "type": "text",
+                "rect": [
+                    126,
+                    10,
+                    100,
+                    16
+                ],
+                "value": "",
+                "font": "{{dateFont}}",
+                "color": "{{textColor}}",
+                "alignment": "left",
+                "text-overflow": "clip",
+                "outline_w": 2,
+                "outline_c": "{{outlineColor}}",
+                "zOrder": 5
+            },
+            {
+                "key": "date1",
+                "type": "text",
+                "rect": [
+                    126,
+                    24,
+                    100,
+                    16
+                ],
+                "value": "",
+                "font": "{{dateFont}}",
+                "color": "{{textColor}}",
+                "alignment": "left",
+                "text-overflow": "clip",
+                "outline_w": 2,
+                "outline_c": "{{outlineColor}}",
+                "zOrder": 6
+            }
+        ]
+    }
+}
