@@ -2,7 +2,7 @@
 
 # Stream Deck Neo Custom Infobars
 
-Custom clock layouts for the Stream Deck Neo info bar. Each layout shows the time and date over a gradient background, with dream, mystic, ocean, forest and sunset themes. `custom_gradient` puts the date under the time, and `custom_gradient_split` shows the weekday and date beside it.
+Custom clock layouts for the Stream Deck Neo info bar. Each layout shows the time and date over a gradient background, with dream, mystic, ocean and forest themes. `custom_gradient` puts the date under the time, and `custom_gradient_split` shows the weekday and date beside it, past a thin divider.
 
 <img width="367" height="58" alt="image" src="https://github.com/user-attachments/assets/8e1e13fe-e081-4de2-9a1f-ca7533a6a70b" />
 <img width="374" height="51" alt="image" src="https://github.com/user-attachments/assets/1961c0cd-8fd6-4bec-adf0-94a81705adb5" />
