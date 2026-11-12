@@ -6,23 +6,23 @@
             "secondaryColor": "#B367FF",
             "colors": {
                 "textColor": "#FFFFFF",
-                "outlineColor": "#000000"
+                "outlineColor": "#80000000"
             },
             "fonts": {
                 "timeFont": {
-                    "family": "Montserrat",
+                    "family": "Montserrat Clock",
                     "size": 26,
                     "weight": 700,
                     "italic": false
                 },
                 "amFont": {
-                    "family": "Montserrat",
+                    "family": "Montserrat Clock",
                     "size": 13,
                     "weight": 700,
                     "italic": false
                 },
                 "dateFont": {
-                    "family": "Montserrat",
+                    "family": "Montserrat Clock",
                     "size": 14,
                     "weight": 500,
                     "italic": false
@@ -38,23 +38,23 @@
             "secondaryColor": "#4E3D66",
             "colors": {
                 "textColor": "#FFFFFF",
-                "outlineColor": "#000000"
+                "outlineColor": "#80000000"
             },
             "fonts": {
                 "timeFont": {
-                    "family": "Montserrat",
+                    "family": "Montserrat Clock",
                     "size": 26,
                     "weight": 700,
                     "italic": false
                 },
                 "amFont": {
-                    "family": "Montserrat",
+                    "family": "Montserrat Clock",
                     "size": 13,
                     "weight": 700,
                     "italic": false
                 },
                 "dateFont": {
-                    "family": "Montserrat",
+                    "family": "Montserrat Clock",
                     "size": 14,
                     "weight": 500,
                     "italic": false
@@ -70,23 +70,23 @@
             "secondaryColor": "#0072FF",
             "colors": {
                 "textColor": "#FFFFFF",
-                "outlineColor": "#000000"
+                "outlineColor": "#80000000"
             },
             "fonts": {
                 "timeFont": {
-                    "family": "Montserrat",
+                    "family": "Montserrat Clock",
                     "size": 26,
                     "weight": 700,
                     "italic": false
                 },
                 "amFont": {
-                    "family": "Montserrat",
+                    "family": "Montserrat Clock",
                     "size": 13,
                     "weight": 700,
                     "italic": false
                 },
                 "dateFont": {
-                    "family": "Montserrat",
+                    "family": "Montserrat Clock",
                     "size": 14,
                     "weight": 500,
                     "italic": false
@@ -102,23 +102,23 @@
             "secondaryColor": "#38EF7D",
             "colors": {
                 "textColor": "#FFFFFF",
-                "outlineColor": "#000000"
+                "outlineColor": "#80000000"
             },
             "fonts": {
                 "timeFont": {
-                    "family": "Montserrat",
+                    "family": "Montserrat Clock",
                     "size": 26,
                     "weight": 700,
                     "italic": false
                 },
                 "amFont": {
-                    "family": "Montserrat",
+                    "family": "Montserrat Clock",
                     "size": 13,
                     "weight": 700,
                     "italic": false
                 },
                 "dateFont": {
-                    "family": "Montserrat",
+                    "family": "Montserrat Clock",
                     "size": 14,
                     "weight": 500,
                     "italic": false
